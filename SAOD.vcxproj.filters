@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\neuro">
+      <UniqueIdentifier>{217f0316-6754-4653-bdbe-5c3111fedec0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\neuro">
+      <UniqueIdentifier>{a01e4e73-552e-4134-a1ed-8c5ea7b7ebd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\reading">
+      <UniqueIdentifier>{8a9d1828-4205-4e60-880f-dd184c1a6f2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\reading">
+      <UniqueIdentifier>{883dc549-3f02-4bfe-b453-b95e180294b4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="neuro\neuron.cpp">
+      <Filter>Исходные файлы\neuro</Filter>
+    </ClCompile>
+    <ClCompile Include="reading\bmp.cpp">
+      <Filter>Исходные файлы\reading</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="neuro\NeuralNetwork.cpp">
+      <Filter>Исходные файлы\neuro</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="neuro\neuron.h">
+      <Filter>Файлы заголовков\neuro</Filter>
+    </ClInclude>
+    <ClInclude Include="reading\bmp.h">
+      <Filter>Файлы заголовков\reading</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="neuro\NeuralNetwork.h">
+      <Filter>Файлы заголовков\neuro</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="alphabet\10x10\A.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="alphabet\10x10\B.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="alphabet\10x10\C.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="alphabet\10x10\D.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="alphabet\10x10\E.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="alphabet\10x10\F.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="alphabet\10x10\G.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="alphabet\10x10\H.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="alphabet\10x10\I.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="alphabet\10x10\J.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="alphabet\10x10\K.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="alphabet\10x10\L.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="alphabet\10x10\M.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="alphabet\10x10\N.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="alphabet\10x10\O.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="alphabet\10x10\P.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="alphabet\10x10\Q.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="alphabet\10x10\R.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="alphabet\10x10\S.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="alphabet\10x10\T.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="alphabet\10x10\U.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="alphabet\10x10\V.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="alphabet\10x10\W.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="alphabet\10x10\X.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="alphabet\10x10\Y.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="alphabet\10x10\Z.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="alphabet\10x10\0.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="alphabet\10x10\1.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="alphabet\10x10\2.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="alphabet\10x10\3.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="alphabet\10x10\4.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="alphabet\10x10\5.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="alphabet\10x10\6.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="alphabet\10x10\7.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="alphabet\10x10\8.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="alphabet\10x10\9.bmp">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
