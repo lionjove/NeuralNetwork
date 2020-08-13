@@ -19,12 +19,6 @@
     <Filter Include="Файлы заголовков\neuro">
       <UniqueIdentifier>{a01e4e73-552e-4134-a1ed-8c5ea7b7ebd7}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Исходные файлы\reading">
-      <UniqueIdentifier>{8a9d1828-4205-4e60-880f-dd184c1a6f2b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Файлы заголовков\reading">
-      <UniqueIdentifier>{883dc549-3f02-4bfe-b453-b95e180294b4}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -32,9 +26,6 @@
     </ClCompile>
     <ClCompile Include="neuro\neuron.cpp">
       <Filter>Исходные файлы\neuro</Filter>
-    </ClCompile>
-    <ClCompile Include="reading\bmp.cpp">
-      <Filter>Исходные файлы\reading</Filter>
     </ClCompile>
     <ClCompile Include="stdafx.cpp">
       <Filter>Исходные файлы</Filter>
@@ -46,9 +37,6 @@
   <ItemGroup>
     <ClInclude Include="neuro\neuron.h">
       <Filter>Файлы заголовков\neuro</Filter>
-    </ClInclude>
-    <ClInclude Include="reading\bmp.h">
-      <Filter>Файлы заголовков\reading</Filter>
     </ClInclude>
     <ClInclude Include="stdafx.h">
       <Filter>Файлы заголовков</Filter>

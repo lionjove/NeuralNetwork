@@ -1,10 +1,6 @@
 #include "../stdafx.h"
 #include "NeuralNetwork.h"
 
-NeuralNetwork::NeuralNetwork() 
-{
-}
-
 // inputLayoutNeuronsCount -> количество входных нейронов в нейросети
 // outputLayoutNeuronsCount -> количество выходных нейронов в нейросети
 NeuralNetwork::NeuralNetwork(size_t inputLayoutNeuronsCount, size_t outputLayoutNeuronsCount) : NeuralNetwork()
@@ -71,7 +67,7 @@ void NeuralNetwork::saveWeights ()
 // загрузить веса связей между нейрона
 bool NeuralNetwork::loadWeights()
 {
-	std::ifstream in = std::ifstream("weights.txt");
+	std::ifstream in("weights.txt");
 
 	if (!in.is_open()) { return false; }
 

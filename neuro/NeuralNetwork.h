@@ -8,7 +8,7 @@ private:
 public:
 	NeuralNetwork(size_t inputLayoutNeuronsCount, size_t outputLayoutNeuronsCount);
 
-	NeuralNetwork();
+	NeuralNetwork() {};
 
     size_t result();
 
